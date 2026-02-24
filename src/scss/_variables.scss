@@ -1,0 +1,48 @@
+$primary: #283987;
+$primary-hover: #1f3183;
+
+$secondary: #000;
+$secondary-hover: #000;
+
+:root {
+  --primary: #{$primary};
+  --primary-hover: #{$primary-hover};
+  --primary-rgb: #{red($primary)}, #{green($primary)}, #{blue($primary)};
+  --secondary: #{$secondary};
+  --secondary-hover: #{$secondary-hover};
+  --secondary-rgb: #{red($secondary)}, #{green($secondary)}, #{blue($secondary)};
+  --font-primary: "Helvetica LT W05 Roman", sans-serif;
+  --font-secondary: "Inter", sans-serif;
+  --menu-font-family: "Helvetica LT W05 Roman";
+  --font-axiforma: "Axiforma", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+$custom-gray: rgb(124, 124, 124);
+
+$custom-theme-colors: (
+  "primary": $primary,
+  "warning": $secondary,
+  "info": #51b3fa,
+  "gray": $custom-gray,
+  "white": #fff
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 36rem,
+  md: 48rem,
+  lg: 62rem,
+  xl: 75rem,
+  xxl: 87.5rem,
+  xxxl: 75rem
+);
+
+$container-max-widths: (
+  sm: 33.75rem,
+  md: 45rem,
+  lg: 60rem,
+  xl: 71.25rem,
+  xxl: 82.5rem,
+  xxxl: 75rem
+);

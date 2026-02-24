@@ -1,0 +1,48 @@
+{
+  "name": "eliz-acc",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev-scss": "sass --watch src/style.scss:public/assets/css/main.css --load-path=src/scss",
+    "dev-js": "esbuild src/main.js --bundle --minify --outfile=public/assets/js/main.js --watch",
+    "dev-php": "php -S localhost:8000 -t public/",
+    "dev-bsync": "browser-sync start --proxy localhost:8000 --files 'public/**/*.html,public/**/*.php,public/assets/css/*.css,public/assets/js/*.js'",
+    "dev": "npm-run-all --parallel dev-scss dev-js dev-bsync dev-php",
+    "build-scss": "sass src/style.scss public/assets/css/all.css",
+    "build-postcss-purge": "postcss public/assets/css/all.css -o public/assets/css/main.css",
+    "build-minify": "postcss public/assets/css/main.css -u cssnano -o public/assets/css/main.min.css --no-map",
+    "build-css": "npm run build-scss && npm run build-postcss-purge && npm run build-minify",
+    "build-fonts": "cpy node_modules/bootstrap-icons/font/fonts/* public/assets/css/fonts",
+    "build-js": "esbuild src/main.js --bundle --minify --outfile=public/assets/js/main.js",
+    "build-html": "node src/build.js",
+    "build": "npm run build-css && npm run build-js && npm run build-html && npm run build-fonts",
+    "build-image": "node src/image.js"
+  },
+  "author": "Mahmut Yüksel MERT",
+  "main": "src/image.js",
+  "type": "module",
+  "license": "ISC",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^7.0.2",
+    "browser-sync": "^2.29.3",
+    "critical": "^7.2.1",
+    "cssnano": "^7.0.7",
+    "esbuild": "^0.25.5",
+    "imagemin-cli": "^8.0.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.47",
+    "postcss-cli": "^10.1.0"
+  },
+  "dependencies": {
+    "animejs": "^4.2.2",
+    "bootstrap": "^5.3.6",
+    "bootstrap-icons": "^1.13.1",
+    "cwebp-bin": "^8.0.0",
+    "embla-carousel": "^8.6.0",
+    "embla-carousel-autoplay": "^8.6.0",
+    "imagemin": "^9.0.1",
+    "imagemin-webp": "^8.0.0",
+    "sass": "^1.89.2",
+    "scrollreveal": "^4.0.9"
+  }
+}
