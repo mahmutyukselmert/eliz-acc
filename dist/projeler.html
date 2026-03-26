@@ -19,7 +19,7 @@
 <body>
     <header class="header-main w-100">
     <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid px-0">
+        <div class="container-fluid px-3">
 
             <div class="logo-wrapper">
                 <a class="navbar-brand mx-auto" href="./">
@@ -29,7 +29,7 @@
             </div>
 
             <button class="navbar-toggler custom-toggler collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav">
+                data-bs-target="#navbarNav" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
                 <i class="icon-close-large menu-close-icon"></i>
                 <i class="icon-menu-hamburger menu-open-icon"></i>
             </button>
@@ -37,64 +37,65 @@
             <div class="collapse navbar-collapse px-5" id="navbarNav">
                 <ul class="navbar-nav ms-auto me-lg-5">
                     <li class="nav-item dropdown custom-dropdown-menu">
-                        <a href="kurumsal-hakkimizda.html" class="nav-link dropdown-toggle" id="navbarDropdown">
-                            <span>HAKKIMIZDA</span>
+                        <a href="kurumsal-hakkimizda" class="nav-link dropdown-toggle" id="navbarDropdown">
+                            <span>KURUMSAL</span>
                             <i class="icon-angle-down"></i>
                         </a>
                         <ul class="dropdown-menu ">
-                            <li><a class="dropdown-item" href="kurumsal-misyon-vizon.html">Vizyon & Misyon</a></li>
-                            <li><a class="dropdown-item" href="kurumsal-takim.html">Takımımız</a></li>
+                            <li><a class="dropdown-item" href="kurumsal-hakkimizda">Hakkımızda</a></li>
+                            <li><a class="dropdown-item" href="kurumsal-misyon-vizon">Vizyon & Misyon</a></li>
+                            <li><a class="dropdown-item" href="kurumsal-takim">Takımımız</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown custom-dropdown-menu">
-                        <a href="projeler.html" class="nav-link dropdown-toggle" id="navbarDropdown2">
+                        <a href="projeler" class="nav-link dropdown-toggle" id="navbarDropdown2">
                             <span>PROJELER</span>
                             <i class="icon-angle-down"></i>
                         </a>
                         <ul class="dropdown-menu ">
                             <li>
-                                <a class="dropdown-item" href="projeler.html?title=devam+eden+projeler">
-                                    Devam Eden Projeler
+                                <a class="dropdown-item" href="proje-detay">
+                                    Beykoz Prive
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="projeler.html?title=tamamlanan+projeler">
-                                    Tamamlanan Projeler
+                                <a class="dropdown-item" href="proje-detay">
+                                    Kazakistan Başbakanlık
                                 </a>    
                             </li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown custom-dropdown-menu">
-                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown2">
+                        <a href="hizmetler" class="nav-link dropdown-toggle" id="navbarDropdown2">
                             <span>HİZMETLER</span>
                             <i class="icon-angle-down"></i>
                         </a>
                         <ul class="dropdown-menu ">
                             <li>
-                                <a class="dropdown-item" href="hizmet.html?title=anahtar+teslim+insaat">Anahtar Teslim
+                                <a class="dropdown-item" href="hizmet-detay">Anahtar Teslim
                                     İnşaat</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="hizmet.html?title=konut+ve+ticari+yapi+insaat">Konut ve
+                                <a class="dropdown-item" href="hizmet-detay">Konut ve
                                     Ticari Yapı İnşaatı</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="hizmet.html?title=taahhut+hizmetleri">Taahhüt
+                                <a class="dropdown-item" href="hizmet-detay">Taahhüt
                                     Hizmetleri</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="hizmet.html?title=kentsel+donusum">Kentsel Dönüşüm</a>
+                                <a class="dropdown-item" href="hizmet-detay">Kentsel Dönüşüm</a>
                             </li>
                             <li>
                                 <a class="dropdown-item"
-                                    href="hizmet.html?title=mimari+ve+muhendislik+danismanligi">Mimari ve Mühendislik
+                                    href="hizmet-detay">Mimari ve Mühendislik
                                     Danışmanlığı</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item"><a href="kariyer.html" class="nav-link">KARİYER</a></li>
-                    <li class="nav-item"><a href="haberler.html" class="nav-link">HABERLER</a></li>
-                    <li class="nav-item"><a href="iletisim.html" class="nav-link">İLETİŞİM</a></li>
+                    <li class="nav-item"><a href="kariyer" class="nav-link">KARİYER</a></li>
+                    <li class="nav-item"><a href="haberler" class="nav-link">HABERLER</a></li>
+                    <li class="nav-item"><a href="iletisim" class="nav-link">İLETİŞİM</a></li>
                 </ul>
                 <ul class="navbar-nav language-wrapper ms-lg-5">
                     <li class="nav-item">
@@ -115,11 +116,13 @@
                         <img src="./assets/images/Savoy_Kemalpasa_Sunset_003.webp" alt="" class="img-fluid">
                         <div class="carousel-caption text-start">
                             <div class="container p-0">
-                                <div class="row align-items-center col-lg-10 mx-auto">
-                                    <div class="col-lg-10 scroll-reveal-left">
+                                <div class="row align-items-center col-lg-12 mx-auto">
+                                    <div class="col-lg-12 scroll-reveal-left">
                                         <div class="hero-heading">
-                                            <h1 class="hero-subtitle order-2 text-capitalize border-0">Projelerimize <br> Göz Atın</h1>
-                                            <h2 class="hero-title order-1 border-3 border-primary border-bottom">PROJELER</h2>
+                                            <h1 class="hero-title order-2 text-capitalize">
+                                                Projelerimize Göz Atın
+                                            </h1>
+                                            <h2 class="hero-subtitle order-1 animation-text">projeler</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -130,26 +133,18 @@
             </div>
         </section>
 
-        <section class="breadcrumbs-container">
+        <section class="wrapper position-relative py-0">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="breadcrumbs" id="breadcrumbs">
-                            <span>
-                                <li>
-                                    <a href="/">Ana Sayfa</a>|
-                                    <a href="/projects/">Projeler</a>|
-                                    <strong class="breadcrumb_last" aria-current="page">  </strong>
-                                </li>
-                            </span>
-                        </div>
+                <div class="breadcrumb-container">
+                    <div class="breadcrumb">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Ana Sayfa</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Projeler</li>
+                            </ol>
+                        </nav>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <section class="wrapper" id="home-services">
-            <div class="container">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="secheading">
@@ -170,53 +165,56 @@
 
                 <div class="row mt-5">
                     <div class="col-lg-4">
-                        <div class="service-item service-gallery-column">
-                            <img src="./assets/images/beykoz-prive-1.webp"
-                                class="service-image" alt="">
+                        <a href="proje-detay" class="service-item service-gallery-column">
+                            <img src="./assets/images/beykoz-prive-1.webp" class="service-image" alt="">
                             <div class="service-content">
-                                <a href="#" class="service-info">
+                                <div class="service-info">
                                     <h3>Beykoz Prive</h3>
-                                    <p>We’ll work closely with your team to plan out this critical construction phase with a
+                                    <p>We’ll work closely with your team to plan out this critical construction phase
+                                        with a
                                         keen
-                                        emphasis on cost estimating & management as well as logistical planning. We’ll provide
+                                        emphasis on cost estimating & management as well as logistical planning. We’ll
+                                        provide
                                         all
                                         budgeting from schematic design straight through to construction documents.</p>
-                                </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <a href="proje-detay" class="service-item service-gallery-column">
+                        <img src="./assets/images/beykoz-prive-1.webp" class="service-image" alt="">
+                        <div class="service-content">
+                            <div class="service-info">
+                                <h3>Beykoz Prive</h3>
+                                <p>We’ll work closely with your team to plan out this critical construction phase
+                                    with a
+                                    keen
+                                    emphasis on cost estimating & management as well as logistical planning. We’ll
+                                    provide
+                                    all
+                                    budgeting from schematic design straight through to construction documents.</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="service-item service-gallery-column">
-                            <img src="./assets/images/beykoz-prive-2.webp"
-                                class="service-image" alt="">
-                            <div class="service-content">
-                                <a href="#" class="service-info">
-                                    <h3>Beykoz Prive</h3>
-                                    <p>We’ll work closely with your team to plan out this critical construction phase with a
-                                        keen
-                                        emphasis on cost estimating & management as well as logistical planning. We’ll provide
-                                        all
-                                        budgeting from schematic design straight through to construction documents.</p>
-                                </a>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="proje-detay" class="service-item service-gallery-column">
+                        <img src="./assets/images/beykoz-prive-1.webp" class="service-image" alt="">
+                        <div class="service-content">
+                            <div class="service-info">
+                                <h3>Beykoz Prive</h3>
+                                <p>We’ll work closely with your team to plan out this critical construction phase
+                                    with a
+                                    keen
+                                    emphasis on cost estimating & management as well as logistical planning. We’ll
+                                    provide
+                                    all
+                                    budgeting from schematic design straight through to construction documents.</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="service-item service-gallery-column">
-                            <img src="./assets/images/beykoz-prive-3.webp"
-                                class="service-image" alt="">
-                            <div class="service-content">
-                                <a href="#" class="service-info">
-                                    <h3>Beykoz Prive</h3>
-                                    <p>We’ll work closely with your team to plan out this critical construction phase with a
-                                        keen
-                                        emphasis on cost estimating & management as well as logistical planning. We’ll provide
-                                        all
-                                        budgeting from schematic design straight through to construction documents.</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>
@@ -231,16 +229,16 @@
                 <div class="footer-item item--wide">
                     <div class="footer-logo">
                         <a href="./" class="text-primary fw-bold">
-                            <img src="./assets/images/acc-logo.webp" alt="ACC" width="180" height="65">
+                            <img src="/assets/images/acc-logo.webp" alt="ACC" width="180" height="65">
                         </a>
                     </div>
 
                     <address class="contact-info">
-                        <a href="tel:90-850-304-49-98">
-                            <span>T: +90 850 304 49 98</span>
+                        <a href="tel:90-850-111-11-22">
+                            <span>T: +90 850 111 11 22</span>
                         </a>
                         <a href="mailto:info@elizyazilim.com">
-                            <span>E: info@majestikyapi.com</span>
+                            <span>E: info@acc.com</span>
                         </a>
                     </address>
 
@@ -314,7 +312,7 @@
     </div>
 </footer>
 
-<script src="./assets/js/main.js"></script>
+<script src="/assets/js/main.js"></script>
 
 <!-- Modal -->
 <div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">

@@ -8,6 +8,9 @@ header {
   display: flex;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
+  @media (max-width: 1200px) {
+    padding: 0 1rem;
+  }
 
   .logo-wrapper {
     max-width: 10.625rem;
@@ -196,7 +199,7 @@ header {
       left: 0;
       top: 4.5rem;
       border-top: 0;
-      background-color: #FAFAFA;
+      background-color: #fafafa;
       border-radius: 0;
       z-index: 1001;
       box-shadow: 2px 2px 6px #00000057;
@@ -373,6 +376,9 @@ header {
     &.dropdown-menu {
       z-index: 1051;
     }
+    @media (max-width: 1200px) {
+      padding: 18px 1rem;
+    }
   }
 
   @media (max-width: 1200px) {
@@ -407,8 +413,11 @@ header {
       .nav-item {
         margin: 0rem;
 
-        .nav-link {
+        a.nav-link {
           font-size: 0.75rem;
+          &:hover {
+            color: #fff;
+          }
         }
       }
     }

@@ -11,11 +11,13 @@ $secondary-hover: #000;
   --secondary: #{$secondary};
   --secondary-hover: #{$secondary-hover};
   --secondary-rgb: #{red($secondary)}, #{green($secondary)}, #{blue($secondary)};
-  --font-primary: "Helvetica LT W05 Roman", sans-serif;
+  --font-primary: "Helvetica LT W05 Roman";
   --font-secondary: "Inter", sans-serif;
   --menu-font-family: "Helvetica LT W05 Roman";
-  --font-axiforma: "Axiforma", sans-serif;
   --font-inter: "Inter", sans-serif;
+  --font-helvetica-lt: "Helvetica LT";
+  --font-helvetica-bold: "Helvetica LT W05 Bold";
+  --font-helvetica: 'Helvetica';
 }
 
 $custom-gray: rgb(124, 124, 124);
@@ -28,21 +30,23 @@ $custom-theme-colors: (
   "white": #fff
 );
 
+// 1. Breakpoints Tanımlama
 $grid-breakpoints: (
   xs: 0,
-  sm: 36rem,
-  md: 48rem,
-  lg: 62rem,
-  xl: 75rem,
-  xxl: 87.5rem,
-  xxxl: 75rem
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,   
+  xxl: 1400px,
+  fhd: 1920px 
 );
 
+// 2. Container Genişlikleri
 $container-max-widths: (
-  sm: 33.75rem,
-  md: 45rem,
-  lg: 60rem,
-  xl: 71.25rem,
-  xxl: 82.5rem,
-  xxxl: 75rem
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px, 
+  xxl: 1320px,
+  fhd: 1680px
 );

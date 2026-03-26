@@ -19,7 +19,7 @@
 <body>
     <header class="header-main w-100">
     <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid px-0">
+        <div class="container-fluid px-3">
 
             <div class="logo-wrapper">
                 <a class="navbar-brand mx-auto" href="./">
@@ -29,7 +29,7 @@
             </div>
 
             <button class="navbar-toggler custom-toggler collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav">
+                data-bs-target="#navbarNav" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
                 <i class="icon-close-large menu-close-icon"></i>
                 <i class="icon-menu-hamburger menu-open-icon"></i>
             </button>
@@ -37,64 +37,65 @@
             <div class="collapse navbar-collapse px-5" id="navbarNav">
                 <ul class="navbar-nav ms-auto me-lg-5">
                     <li class="nav-item dropdown custom-dropdown-menu">
-                        <a href="kurumsal-hakkimizda.html" class="nav-link dropdown-toggle" id="navbarDropdown">
-                            <span>HAKKIMIZDA</span>
+                        <a href="kurumsal-hakkimizda" class="nav-link dropdown-toggle" id="navbarDropdown">
+                            <span>KURUMSAL</span>
                             <i class="icon-angle-down"></i>
                         </a>
                         <ul class="dropdown-menu ">
-                            <li><a class="dropdown-item" href="kurumsal-misyon-vizon.html">Vizyon & Misyon</a></li>
-                            <li><a class="dropdown-item" href="kurumsal-takim.html">Takımımız</a></li>
+                            <li><a class="dropdown-item" href="kurumsal-hakkimizda">Hakkımızda</a></li>
+                            <li><a class="dropdown-item" href="kurumsal-misyon-vizon">Vizyon & Misyon</a></li>
+                            <li><a class="dropdown-item" href="kurumsal-takim">Takımımız</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown custom-dropdown-menu">
-                        <a href="projeler.html" class="nav-link dropdown-toggle" id="navbarDropdown2">
+                        <a href="projeler" class="nav-link dropdown-toggle" id="navbarDropdown2">
                             <span>PROJELER</span>
                             <i class="icon-angle-down"></i>
                         </a>
                         <ul class="dropdown-menu ">
                             <li>
-                                <a class="dropdown-item" href="projeler.html?title=devam+eden+projeler">
-                                    Devam Eden Projeler
+                                <a class="dropdown-item" href="proje-detay">
+                                    Beykoz Prive
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="projeler.html?title=tamamlanan+projeler">
-                                    Tamamlanan Projeler
+                                <a class="dropdown-item" href="proje-detay">
+                                    Kazakistan Başbakanlık
                                 </a>    
                             </li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown custom-dropdown-menu">
-                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown2">
+                        <a href="hizmetler" class="nav-link dropdown-toggle" id="navbarDropdown2">
                             <span>HİZMETLER</span>
                             <i class="icon-angle-down"></i>
                         </a>
                         <ul class="dropdown-menu ">
                             <li>
-                                <a class="dropdown-item" href="hizmet.html?title=anahtar+teslim+insaat">Anahtar Teslim
+                                <a class="dropdown-item" href="hizmet-detay">Anahtar Teslim
                                     İnşaat</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="hizmet.html?title=konut+ve+ticari+yapi+insaat">Konut ve
+                                <a class="dropdown-item" href="hizmet-detay">Konut ve
                                     Ticari Yapı İnşaatı</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="hizmet.html?title=taahhut+hizmetleri">Taahhüt
+                                <a class="dropdown-item" href="hizmet-detay">Taahhüt
                                     Hizmetleri</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="hizmet.html?title=kentsel+donusum">Kentsel Dönüşüm</a>
+                                <a class="dropdown-item" href="hizmet-detay">Kentsel Dönüşüm</a>
                             </li>
                             <li>
                                 <a class="dropdown-item"
-                                    href="hizmet.html?title=mimari+ve+muhendislik+danismanligi">Mimari ve Mühendislik
+                                    href="hizmet-detay">Mimari ve Mühendislik
                                     Danışmanlığı</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item"><a href="kariyer.html" class="nav-link">KARİYER</a></li>
-                    <li class="nav-item"><a href="haberler.html" class="nav-link">HABERLER</a></li>
-                    <li class="nav-item"><a href="iletisim.html" class="nav-link">İLETİŞİM</a></li>
+                    <li class="nav-item"><a href="kariyer" class="nav-link">KARİYER</a></li>
+                    <li class="nav-item"><a href="haberler" class="nav-link">HABERLER</a></li>
+                    <li class="nav-item"><a href="iletisim" class="nav-link">İLETİŞİM</a></li>
                 </ul>
                 <ul class="navbar-nav language-wrapper ms-lg-5">
                     <li class="nav-item">
@@ -107,23 +108,21 @@
 </header>
 <!-- /.header-main -->
     <main class="sub-page">
+
         <section class="hero">
             <div id="carouselSlider" class="carousel slide">
-                <div class="carousel-inner">
+                <div class="carousel-inner black-effect">
                     <div class="carousel-item active" data-type="image" data-interval="10000">
-                        <img src="./assets/images/haber-banner.webp" alt="" class="img-fluid">
+                        <img src="./assets/images/Savoy_Kemalpasa_Sunset_003.webp" alt="" class="img-fluid">
                         <div class="carousel-caption text-start">
-                            <div class="container p-0 mx-auto">
-                                <div class="row align-items-center col-lg-10 mx-auto">
-                                    <div class="col-lg-6 scroll-reveal-left">
-                                        <h1 class="hero-title">HABERLER</h1>
-                                        <h2 class="hero-subtitle">Majestİk Yapı’dan Güncel Gelİşmeler</h2>
-                                        <div class="hero-description mt-4 mt-lg-0">
-                                            <div class="col-lg-10 col-12">
-                                                <div class="carousel-content">
-                                                    <p>Majestik Yapı’nın projeleri, duyuruları ve tüm güncel gelişmelerini bu alandan takip edebilirsiniz.</p>
-                                                </div>
-                                            </div>
+                            <div class="container p-0">
+                                <div class="row align-items-center col-lg-12 mx-auto">
+                                    <div class="col-lg-12 scroll-reveal-left">
+                                        <div class="hero-heading">
+                                            <h1 class="hero-title order-2 text-capitalize">
+                                                BİZDEN HABERLER
+                                            </h1>
+                                            <h2 class="hero-subtitle order-1 animation-text">HABERLER</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -134,56 +133,107 @@
             </div>
         </section>
 
+        <section class="wrapper position-relative py-0">
+            <div class="container">
+                <div class="breadcrumb-container">
+                    <div class="breadcrumb">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Ana Sayfa</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Haberler</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="secheading">
+                            <div class="secheading-border active"></div>
+                            <div class="sub-heading animation-text">Haberler</div>
+                            <h3>Turning Client Into Reality</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="news-section py-5">
             <div class="container">
                 <div class="row align-items-center row-gap-5">
-                    <div class="col-lg-4 scroll-reveal-left">
-                        <div class="card">
-                            <img src="./assets/images/18879.webp" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <div class="card-icon">
-                                    <i class="icon-arrow-right"></i>
+                    <div class="col-lg-6 scroll-reveal-left">
+                        <div class="card news-card news-left-image">
+                            <div class="row g-0">
+                                <div class="col-md-6 col-4">
+                                    <img src="./assets/images/beykoz-prive-2.webp" class="img-fluid h-100" alt="">
                                 </div>
-                                <div class="card-content">
-                                    <a href="haber-detay.html" class="stretched-link">
-                                        <h5 class="card-title mb-3">Majestİk İnşaat’tan Şehİr
-                                            Sİluetİne Değer Katan Yenİ Proje</h5>
-                                    </a>
-                                    <p class="card-text">Her projede estetik mimariyi sağlam yapı teknikleriyle birleştirir, yatırım değerini artıran, uzun ömürlü ve prestijli yapılar üretir. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 scroll-reveal-bottom">
-                        <div class="card">
-                            <img src="./assets/images/111032.webp" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <div class="card-icon">
-                                    <i class="icon-arrow-right"></i>
-                                </div>
-                                <div class="card-content">
-                                    <a href="haber-detay.html" class="stretched-link">
-                                        <h5 class="card-title mb-3">Majestİk İnşaat’tan Şehİr
-                                            Sİluetİne Değer Katan Yenİ Proje</h5>
-                                    </a>
-                                    <p class="card-text">Her projede estetik mimariyi sağlam yapı teknikleriyle birleştirir, yatırım değerini artıran, uzun ömürlü ve prestijli yapılar üretir. </p>
+                                <div class="col-md-6 col-8">
+                                    <div class="card-body d-flex flex-column justify-content-between h-100">
+                                        <div class="card-content">
+                                            <a href="haber-detay" class="stretched-link">
+                                                <h5 class="card-title mb-3">
+                                                    Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet öşçğüiı
+                                                </h5>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <date>20.06.2024</date>
+                                            <strong class="text-primary text-decoration-none fw-bold"> 
+                                                HABER DETAYI
+                                            </strong>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 scroll-reveal-right">
-                        <div class="card">
-                            <img src="./assets/images/111032.webp" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <div class="card-icon">
-                                    <i class="icon-arrow-right"></i>
+                    <div class="col-lg-6 scroll-reveal-left">
+                        <div class="card news-card news-left-image">
+                            <div class="row g-0">
+                                <div class="col-md-6 col-4">
+                                    <img src="./assets/images/beykoz-prive-2.webp" class="img-fluid h-100" alt="">
                                 </div>
-                                <div class="card-content">
-                                    <a href="haber-detay.html" class="stretched-link">
-                                        <h5 class="card-title mb-3">Majestİk İnşaat’tan Şehİr
-                                            Sİluetİne Değer Katan Yenİ Proje</h5>
-                                    </a>
-                                    <p class="card-text">Her projede estetik mimariyi sağlam yapı teknikleriyle birleştirir, yatırım değerini artıran, uzun ömürlü ve prestijli yapılar üretir. </p>
+                                <div class="col-md-6 col-8">
+                                    <div class="card-body d-flex flex-column justify-content-between h-100">
+                                        <div class="card-content">
+                                            <a href="haber-detay" class="stretched-link">
+                                                <h5 class="card-title mb-3">
+                                                    Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet öşçğüiı
+                                                </h5>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <date>20.06.2024</date>
+                                            <strong class="text-primary text-decoration-none fw-bold"> 
+                                                HABER DETAYI
+                                            </strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 scroll-reveal-left">
+                        <div class="card news-card news-left-image">
+                            <div class="row g-0">
+                                <div class="col-md-6 col-4">
+                                    <img src="./assets/images/beykoz-prive-2.webp" class="img-fluid h-100" alt="">
+                                </div>
+                                <div class="col-md-6 col-8">
+                                    <div class="card-body d-flex flex-column justify-content-between h-100">
+                                        <div class="card-content">
+                                            <a href="haber-detay" class="stretched-link">
+                                                <h5 class="card-title mb-3">
+                                                    Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet öşçğüiı Lorem
+                                                </h5>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <date>20.06.2024</date>
+                                            <strong class="text-primary text-decoration-none fw-bold"> 
+                                                HABER DETAYI
+                                            </strong>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -202,16 +252,16 @@
                 <div class="footer-item item--wide">
                     <div class="footer-logo">
                         <a href="./" class="text-primary fw-bold">
-                            <img src="./assets/images/acc-logo.webp" alt="ACC" width="180" height="65">
+                            <img src="/assets/images/acc-logo.webp" alt="ACC" width="180" height="65">
                         </a>
                     </div>
 
                     <address class="contact-info">
-                        <a href="tel:90-850-304-49-98">
-                            <span>T: +90 850 304 49 98</span>
+                        <a href="tel:90-850-111-11-22">
+                            <span>T: +90 850 111 11 22</span>
                         </a>
                         <a href="mailto:info@elizyazilim.com">
-                            <span>E: info@majestikyapi.com</span>
+                            <span>E: info@acc.com</span>
                         </a>
                     </address>
 
@@ -285,7 +335,7 @@
     </div>
 </footer>
 
-<script src="./assets/js/main.js"></script>
+<script src="/assets/js/main.js"></script>
 
 <!-- Modal -->
 <div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">

@@ -19,7 +19,7 @@
 <body>
     <header class="header-main w-100">
     <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid px-0">
+        <div class="container-fluid px-3">
 
             <div class="logo-wrapper">
                 <a class="navbar-brand mx-auto" href="./">
@@ -29,7 +29,7 @@
             </div>
 
             <button class="navbar-toggler custom-toggler collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav">
+                data-bs-target="#navbarNav" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
                 <i class="icon-close-large menu-close-icon"></i>
                 <i class="icon-menu-hamburger menu-open-icon"></i>
             </button>
@@ -37,64 +37,65 @@
             <div class="collapse navbar-collapse px-5" id="navbarNav">
                 <ul class="navbar-nav ms-auto me-lg-5">
                     <li class="nav-item dropdown custom-dropdown-menu">
-                        <a href="kurumsal-hakkimizda.html" class="nav-link dropdown-toggle" id="navbarDropdown">
-                            <span>HAKKIMIZDA</span>
+                        <a href="kurumsal-hakkimizda" class="nav-link dropdown-toggle" id="navbarDropdown">
+                            <span>KURUMSAL</span>
                             <i class="icon-angle-down"></i>
                         </a>
                         <ul class="dropdown-menu ">
-                            <li><a class="dropdown-item" href="kurumsal-misyon-vizon.html">Vizyon & Misyon</a></li>
-                            <li><a class="dropdown-item" href="kurumsal-takim.html">Takımımız</a></li>
+                            <li><a class="dropdown-item" href="kurumsal-hakkimizda">Hakkımızda</a></li>
+                            <li><a class="dropdown-item" href="kurumsal-misyon-vizon">Vizyon & Misyon</a></li>
+                            <li><a class="dropdown-item" href="kurumsal-takim">Takımımız</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown custom-dropdown-menu">
-                        <a href="projeler.html" class="nav-link dropdown-toggle" id="navbarDropdown2">
+                        <a href="projeler" class="nav-link dropdown-toggle" id="navbarDropdown2">
                             <span>PROJELER</span>
                             <i class="icon-angle-down"></i>
                         </a>
                         <ul class="dropdown-menu ">
                             <li>
-                                <a class="dropdown-item" href="projeler.html?title=devam+eden+projeler">
-                                    Devam Eden Projeler
+                                <a class="dropdown-item" href="proje-detay">
+                                    Beykoz Prive
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="projeler.html?title=tamamlanan+projeler">
-                                    Tamamlanan Projeler
+                                <a class="dropdown-item" href="proje-detay">
+                                    Kazakistan Başbakanlık
                                 </a>    
                             </li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown custom-dropdown-menu">
-                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown2">
+                        <a href="hizmetler" class="nav-link dropdown-toggle" id="navbarDropdown2">
                             <span>HİZMETLER</span>
                             <i class="icon-angle-down"></i>
                         </a>
                         <ul class="dropdown-menu ">
                             <li>
-                                <a class="dropdown-item" href="hizmet.html?title=anahtar+teslim+insaat">Anahtar Teslim
+                                <a class="dropdown-item" href="hizmet-detay">Anahtar Teslim
                                     İnşaat</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="hizmet.html?title=konut+ve+ticari+yapi+insaat">Konut ve
+                                <a class="dropdown-item" href="hizmet-detay">Konut ve
                                     Ticari Yapı İnşaatı</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="hizmet.html?title=taahhut+hizmetleri">Taahhüt
+                                <a class="dropdown-item" href="hizmet-detay">Taahhüt
                                     Hizmetleri</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="hizmet.html?title=kentsel+donusum">Kentsel Dönüşüm</a>
+                                <a class="dropdown-item" href="hizmet-detay">Kentsel Dönüşüm</a>
                             </li>
                             <li>
                                 <a class="dropdown-item"
-                                    href="hizmet.html?title=mimari+ve+muhendislik+danismanligi">Mimari ve Mühendislik
+                                    href="hizmet-detay">Mimari ve Mühendislik
                                     Danışmanlığı</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item"><a href="kariyer.html" class="nav-link">KARİYER</a></li>
-                    <li class="nav-item"><a href="haberler.html" class="nav-link">HABERLER</a></li>
-                    <li class="nav-item"><a href="iletisim.html" class="nav-link">İLETİŞİM</a></li>
+                    <li class="nav-item"><a href="kariyer" class="nav-link">KARİYER</a></li>
+                    <li class="nav-item"><a href="haberler" class="nav-link">HABERLER</a></li>
+                    <li class="nav-item"><a href="iletisim" class="nav-link">İLETİŞİM</a></li>
                 </ul>
                 <ul class="navbar-nav language-wrapper ms-lg-5">
                     <li class="nav-item">
@@ -112,17 +113,25 @@
             <div id="carouselSlider" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-type="image" data-interval="10000">
-                        <img src="./assets/images/34586.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/Savoy_Kemalpasa_Sunset_003.webp" alt="" class="img-fluid">
                         <div class="carousel-caption text-start">
                             <div class="container">
-                                <div class="row align-items-center col-lg-10 mx-auto">
+                                <div class="row align-items-center col-lg-12 mx-auto">
                                     <div class="col-lg-6 scroll-reveal-left">
-                                        <h1 class="hero-title">Kurumsal</h1>
-                                        <h2 class="hero-subtitle">Hakkımızda</h2>
+                                        <div class="hero-heading">
+                                            <h1 class="hero-title order-2">
+                                                HAKKIMIZDA
+                                            </h1>
+                                            <h2 class="hero-subtitle order-1 animation-text">KURUMSAL</h2>
+                                        </div>
                                         <div class="hero-description mt-4 mt-lg-0">
                                             <div class="col-lg-10 col-10">
                                                 <div class="carousel-content">
-                                                    <p>Majestik Yapı, modern mimari, güçlü mühendislik ve yüksek kalite anlayışıyla güvenli yaşam alanları inşa eder. Her projede prestiji ve sürdürülebilirliği esas alır.</p>
+                                                    <p> Lorem ipsum dolar sit amet Lorem ipsum dolor sit amet
+                                                        consectetur adipisicing elit. Labore odio expedita, eum
+                                                        excepturi incidunt rem et sunt consectetur voluptates eaque
+                                                        quasi molestias fugit nisi quibusdam architecto ab voluptatum
+                                                        ipsa quo. </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -135,132 +144,94 @@
             </div>
         </section>
 
-        <section class="py-5">
+        <section class="wrapper position-relative py-0">
+            <div class="container">
+                <div class="breadcrumb-container">
+                    <div class="breadcrumb">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Ana Sayfa</a></li>
+                                <li class="breadcrumb-item"><a href="#">Kurumsal</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Hakkımızda</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="secheading">
+                            <div class="secheading-border active"></div>
+                            <h3 class="sub-heading animation-text">Biz Kimiz?</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-4 px-3">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-10 mx-auto scroll-reveal-bottom">
-                        <h3 class="text-primary fw-bold fs-2 mb-4">Bİr yapıdan fazlası </h3>
-                        <div class="content fw-light fs-5">
-                            <p>Majestik Yapı, yüksek kalite standartlarını esas alan yaklaşımıyla hayata geçirdiği yeni projeleriyle modern ve güvenli yaşam alanları oluşturmaya devam ediyor. Estetik mimari anlayışı, güçlü mühendislik altyapısı ve titiz uygulama süreçleriyle geliştirilen projeler, hem konforlu bir yaşam hem de yüksek yatırım değeri sunmayı hedefliyor.</p>
-                            <p>
-                                Yeni yaşam alanları; fonksiyonel daire planları, ferah iç mekân çözümleri ve doğal ışığı maksimum seviyede kullanan mimari tasarımıyla dikkat çekiyor. Projelerde kullanılan tüm yapı sistemleri ve malzemeler, dayanıklılık, güvenlik ve uzun ömür kriterlerine uygun olarak özenle seçiliyor. Bu sayede Majestik Yapı, sadece bugünün değil, geleceğin ihtiyaçlarını da karşılayan yapılar ortaya koyuyor. </p>
-                            <p>
-                                Majestik Yapı yetkilileri, projelerini tasarlarken kullanıcı konforunu ve yaşam kalitesini merkeze aldıklarını belirtiyor. Sosyal alanlar, peyzaj düzenlemeleri ve çevreyle uyumlu mimari yaklaşım sayesinde sakinlerine huzurlu, güvenli ve ayrıcalıklı bir yaşam ortamı sunulması hedefleniyor. Aynı zamanda projeler, bulunduğu bölgenin mimari değerine katkı sağlayarak şehir estetiğine prestij kazandırıyor.</p>
-                            <p>
-                                Yüksek standartlarda geliştirilen bu yeni yaşam alanları, yatırımcılar için de önemli fırsatlar sunuyor. Kaliteli yapı anlayışı, doğru lokasyon seçimi ve sürdürülebilir mimari çözümler sayesinde projeler uzun vadede değer kazanan güçlü bir yatırım alternatifi oluşturuyor.</p>
-                            <p>
-                                Majestik Yapı, her projesinde kaliteyi bir tercih değil, vazgeçilmez bir standart olarak kabul ediyor. Güvenli yapı sistemleri, nitelikli işçilik ve profesyonel proje yönetimi anlayışıyla sektörde kalıcı bir iz bırakmayı hedefliyor.</p>
-                            <p>
-                                Bu yeni projelerle birlikte Majestik Yapı, yaşam alanlarına sadece yapı değil; güven, prestij ve değer kazandırmaya devam ediyor.</p>
+                    <div class="col-lg-6 pe-5">
+                        <h4 class="fs-1 animation-text mb-5">We Are Relentlessly Focused on Executing The Highest
+                            Standards For Our Employees</h4>
+
+                        <div class="mx-auto position-relative ">
+                            <div class="stats-grid scroll-reveal-bottom d-grid row-gap-4">
+                                <div class="stats-item">
+                                    <h3 class="stats-number">
+                                        <output id="statsKm" class="countup" data-value="25">25</output>
+                                        %
+                                    </h3>
+                                    <p class="stats-text">Ölçüm</p>
+                                </div>
+                                <div class="stats-item">
+                                    <h3 class="stats-number">
+                                        <output id="" class="countup" data-value="35">35</output>
+                                        +
+                                    </h3>
+                                    <p class="stats-text">PROJEYE ATILAN İMZA</p>
+                                </div>
+                                <div class="stats-item">
+                                    <h3 class="stats-number">
+                                        <output id="" class="countup" data-value="100">100</output>
+                                        %
+                                    </h3>
+                                    <p class="stats-text">Başarı</p>
+                                </div>
+                                <div class="stats-item">
+                                    <h3 class="stats-number">
+                                        <output id="" class="countup" data-value="100">100</output>
+                                        +
+                                    </h3>
+                                    <p class="stats-text">UZMAN ÇALIŞAN</p>
+                                </div>
+                            </div>
                         </div>
+
+                        <div class="content fw-light fs-5 mt-3">
+                            <p>ACC Yapı, yüksek kalite standartlarını esas alan yaklaşımıyla hayata geçirdiği yeni
+                                projeleriyle modern ve güvenli yaşam alanları oluşturmaya devam ediyor. Estetik mimari
+                                anlayışı, güçlü mühendislik altyapısı ve titiz uygulama süreçleriyle geliştirilen
+                                projeler, hem konforlu bir yaşam hem de yüksek yatırım değeri sunmayı hedefliyor.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="/assets/images/Savoy_Kemalpasa_Sunset_003.webp" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="homepage-about-section">
+        <section class="bg-black py-5">
             <div class="container">
-        
-                <div class="row g-0 about-us-and-video-area">
-                    <div class="col-12 col-lg-6 reveal-3d mx-0 ">
-                        <div class="video-box">
-                            <img src="./assets/images/about-us-video-image.webp" alt="Majestik İnşaat Tanıtım Videosu" class="img-fluid shadow">
-                            <div class="position-absolute">
-                                <div class="play-pulse-animation">
-                                    <a href="#" class="btn play-button" aria-label="Play Video" data-bs-toggle="modal" data-bs-target="#videoModal">
-                                        <i class="icon-play"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 reveal-3d mx-0 h-100">
-                        <div class="blue-box text-white p-5 px-5 shadow h-100 d-flex flex-column justify-content-center">
-                            <div class="content px-5 mb-0">
-                                <p>Majestik İnşaat, modern mimari anlayışı ve güçlü mühendislik altyapısıyla güvenli, kaliteli ve prestijli yapılar üretir. Her projede estetiği, dayanıklılığı ve fonksiyonelliği bir araya getirerek yaşam alanlarına değer katar.</p>
-                            </div>
-                            <div class="mx-auto position-relative">
-                                <div class="scroll-reveal-bottom">
-                                    <div class="stats-item">
-                                        <h3 class="stats-number">
-                                            <output id="statsKm" class="countup" data-value="25">25</output>
-                                            +
-                                        </h3>
-                                        <p class="stats-text">Yıllık Deneyim</p>
-                                    </div>
-                                    <div class="stats-item">
-                                        <h3 class="stats-number">
-                                            <output id="" class="countup" data-value="35">35</output>
-                                            +
-                                        </h3>
-                                        <p class="stats-text">PROJEYE ATILAN İMZA</p>
-                                    </div>
-                                    <div class="stats-item">
-                                        <h3 class="stats-number">
-                                            <output id="" class="countup" data-value="100">100</output>
-                                            +
-                                        </h3>
-                                        <p class="stats-text">UZMAN ÇALIŞAN</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <img src="./assets/images/majestik-icon-layer.webp" alt="" class="bg-right-bottom-icon">
-                        </div>
+                <div class="row">
+                    <div class="col-lg-6 mx-auto">
+                        <h5 class="text-white fs-1 text-uppercase fw-medium font-inter"> Dive into our Core Values and see why we're not your average CONSTRUCTION company! </h5>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <section class="news-section our-services-section no-first-load-card-image py-5">
-            <div class="container">
-                <div class="row align-items-center row-gap-5">
-                    <div class="col-lg-4 scroll-reveal-left">
-                        <div class="card border-none">
-                            <img src="./assets/images/Beykoz Prive_(25).webp" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <div class="card-icon">
-                                    <i class="icon-arrow-right"></i>
-                                </div>
-                                <div class="card-content">
-                                    <a href="#" class="stretched-link">
-                                        <h5 class="card-title mb-3">PROJELERİMİZ</h5>
-                                    </a>
-                                    <p class="card-text">Her projede estetik, güven ve yüksek kalite standartlarını bir araya getiririz.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 scroll-reveal-bottom">
-                        <div class="card border-none">
-                            <img src="./assets/images/Beykoz Prive_(25).webp" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <div class="card-icon">
-                                    <i class="icon-arrow-right"></i>
-                                </div>
-                                <div class="card-content">
-                                    <a href="#" class="stretched-link">
-                                        <h5 class="card-title mb-3">HİZMETLERİMİZ</h5>
-                                    </a>
-                                    <p class="card-text">Tüm projelerde güvenli, kaliteli ve profesyonel çözümler sunarız.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 scroll-reveal-right">
-                        <div class="card border-none">
-                            <img src="./assets/images/Beykoz Prive_(25).webp" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <div class="card-icon">
-                                    <i class="icon-arrow-right"></i>
-                                </div>
-                                <div class="card-content">
-                                    <a href="#" class="stretched-link">
-                                        <h5 class="card-title mb-3">KALİTE POLİTİKAMIZ</h5>
-                                    </a>
-                                    <p class="card-text">Kaliteden ödün vermeden, güvenli ve uzun ömürlü yapılar inşa ederiz.</p>
-                                </div>
-                            </div>
-                        </div>
+                <div class="row mt-2">
+                    <div class="col-lg-8 mx-auto">
+                        <iframe class="w-100 " width="560" height="615" src="https://www.youtube.com/embed/77ygz-MC6_8?si=I21rKTWYTVevbRh9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -276,16 +247,16 @@
                 <div class="footer-item item--wide">
                     <div class="footer-logo">
                         <a href="./" class="text-primary fw-bold">
-                            <img src="./assets/images/acc-logo.webp" alt="ACC" width="180" height="65">
+                            <img src="/assets/images/acc-logo.webp" alt="ACC" width="180" height="65">
                         </a>
                     </div>
 
                     <address class="contact-info">
-                        <a href="tel:90-850-304-49-98">
-                            <span>T: +90 850 304 49 98</span>
+                        <a href="tel:90-850-111-11-22">
+                            <span>T: +90 850 111 11 22</span>
                         </a>
                         <a href="mailto:info@elizyazilim.com">
-                            <span>E: info@majestikyapi.com</span>
+                            <span>E: info@acc.com</span>
                         </a>
                     </address>
 
@@ -359,7 +330,7 @@
     </div>
 </footer>
 
-<script src="./assets/js/main.js"></script>
+<script src="/assets/js/main.js"></script>
 
 <!-- Modal -->
 <div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">

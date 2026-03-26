@@ -514,11 +514,11 @@ document.addEventListener("DOMContentLoaded", function () {
     e.preventDefault();
 
     // Aynı row içindeki tüm gallery itemları al
-    const row = trigger.closest(".row");
+    const row = trigger.closest(".zoom-gallery-wrapper");
     if (!row) return;
 
     const galleryItems = Array.from(
-      row.querySelectorAll(".service-gallery-column .zoom-trigger img")
+      row.querySelectorAll(".zoom-gallery-wrapper .zoom-trigger img")
     );
 
     if (!galleryItems.length) return;

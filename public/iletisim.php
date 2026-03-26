@@ -23,8 +23,10 @@
                                 <div class="row align-items-center col-lg-12 mx-auto">
                                     <div class="col-lg-12 scroll-reveal-left">
                                         <div class="hero-heading">
-                                            <h1 class="hero-subtitle order-2 text-capitalize border-0">İletişim</h1>
-                                            <h2 class="hero-title order-1 border-3 border-primary border-bottom">Bize Ulaşın</h2>
+                                            <h1 class="hero-title order-2 text-capitalize">
+                                                İLETİŞİM
+                                            </h1>
+                                            <h2 class="hero-subtitle order-1 animation-text">BİZE ULAŞIN</h2>
                                         </div>
                                     </div>
                                 </div>

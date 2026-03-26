@@ -17,17 +17,21 @@
             <div id="carouselSlider" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-type="image" data-interval="10000">
-                        <img src="./assets/images/kariyer-banner.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/Savoy_Kemalpasa_Sunset_003.webp" alt="" class="img-fluid">
                         <div class="carousel-caption text-start">
                             <div class="container">
                                 <div class="row align-items-center col-lg-10 mx-auto">
                                     <div class="col-lg-6 scroll-reveal-left">
-                                        <h1 class="hero-title">KARİYER</h1>
-                                        <h2 class="hero-subtitle">Kariyerine Güçlü <br> Bir Temel At</h2>
+                                        <div class="hero-heading">
+                                            <h1 class="hero-title order-2">
+                                                KARİYER BAŞVURU FORMU
+                                            </h1>
+                                            <h2 class="hero-subtitle order-1 animation-text">KARİYER</h2>
+                                        </div>
                                         <div class="hero-description mt-4 mt-lg-0">
                                             <div class="col-lg-10 col-12">
                                                 <div class="carousel-content">
-                                                    <p>Majestik Yapı ailesinin bir parçası olmak ve güçlü projelerde yer almak için genel başvuruda bulunabilirsiniz. Özgeçmişiniz, uzmanlık alanınız ve kariyer hedefleriniz doğrultusunda değerlendirilerek uygun pozisyonlarda sizinle iletişime geçilecektir.</p>
+                                                    <p>ACC Yapı ailesinin bir parçası olmak ve güçlü projelerde yer almak için genel başvuruda bulunabilirsiniz. Özgeçmişiniz, uzmanlık alanınız ve kariyer hedefleriniz doğrultusunda değerlendirilerek uygun pozisyonlarda sizinle iletişime geçilecektir.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -43,9 +47,9 @@
         <section class="about-section wapper py-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 mx-auto">
+                    <div class="col-lg-10 mx-auto">
 
-                        <h3 class="text-primary fw-semibold fs-4">MAJESTİK Kariyer Başvuru Formu</h3>
+                        <h3 class="text-primary fw-semibold fs-4">ACC Kariyer Başvuru Formu</h3>
 
                         <form action="" method="post" class="form-floating scroll-reveal-right mt-4" enctype="multipart/form-data">
                             <div class="form-floating mb-3">
@@ -87,7 +91,7 @@
                                     yurtdışındaki üçüncü kişilere aktarılmasına izin veriyorum ve bu konuda gereği gibi
                                     bilgilendirildiğimi kabul ediyorum.</label>
                             </div>
-                            <button type="submit" class="btn btn-outline-primary text-primary px-4 py-3">GÖNDER</button>
+                            <button type="submit" class="btn btn-outline-primary rounded-0 px-4 py-3">GÖNDER</button>
                         </form>
 
 

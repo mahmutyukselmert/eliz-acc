@@ -20,7 +20,7 @@
                         <img src="./assets/images/4595.webp" alt="" class="img-fluid">
                         <div class="carousel-caption text-start">
                             <div class="container p-0">
-                                <div class="row align-items-center col-lg-10 mx-auto">
+                                <div class="row align-items-center col-lg-12 mx-auto">
                                     <div class="col-lg-10 scroll-reveal-left">
                                         <div class="hero-heading">
                                             <h1 class="hero-subtitle order-2 text-uppercase"></h1>

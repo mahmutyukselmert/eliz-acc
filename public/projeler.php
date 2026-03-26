@@ -23,8 +23,10 @@
                                 <div class="row align-items-center col-lg-12 mx-auto">
                                     <div class="col-lg-12 scroll-reveal-left">
                                         <div class="hero-heading">
-                                            <h1 class="hero-subtitle order-2 text-capitalize border-0">Projelerimize <br> Göz Atın</h1>
-                                            <h2 class="hero-title order-1 border-3 border-primary border-bottom">PROJELER</h2>
+                                            <h1 class="hero-title order-2 text-capitalize">
+                                                Projelerimize Göz Atın
+                                            </h1>
+                                            <h2 class="hero-subtitle order-1 animation-text">projeler</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -67,53 +69,56 @@
 
                 <div class="row mt-5">
                     <div class="col-lg-4">
-                        <div class="service-item service-gallery-column">
-                            <img src="./assets/images/beykoz-prive-1.webp"
-                                class="service-image" alt="">
+                        <a href="proje-detay" class="service-item service-gallery-column">
+                            <img src="./assets/images/beykoz-prive-1.webp" class="service-image" alt="">
                             <div class="service-content">
-                                <a href="#" class="service-info">
+                                <div class="service-info">
                                     <h3>Beykoz Prive</h3>
-                                    <p>We’ll work closely with your team to plan out this critical construction phase with a
+                                    <p>We’ll work closely with your team to plan out this critical construction phase
+                                        with a
                                         keen
-                                        emphasis on cost estimating & management as well as logistical planning. We’ll provide
+                                        emphasis on cost estimating & management as well as logistical planning. We’ll
+                                        provide
                                         all
                                         budgeting from schematic design straight through to construction documents.</p>
-                                </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <a href="proje-detay" class="service-item service-gallery-column">
+                        <img src="./assets/images/beykoz-prive-1.webp" class="service-image" alt="">
+                        <div class="service-content">
+                            <div class="service-info">
+                                <h3>Beykoz Prive</h3>
+                                <p>We’ll work closely with your team to plan out this critical construction phase
+                                    with a
+                                    keen
+                                    emphasis on cost estimating & management as well as logistical planning. We’ll
+                                    provide
+                                    all
+                                    budgeting from schematic design straight through to construction documents.</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="service-item service-gallery-column">
-                            <img src="./assets/images/beykoz-prive-2.webp"
-                                class="service-image" alt="">
-                            <div class="service-content">
-                                <a href="#" class="service-info">
-                                    <h3>Beykoz Prive</h3>
-                                    <p>We’ll work closely with your team to plan out this critical construction phase with a
-                                        keen
-                                        emphasis on cost estimating & management as well as logistical planning. We’ll provide
-                                        all
-                                        budgeting from schematic design straight through to construction documents.</p>
-                                </a>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="proje-detay" class="service-item service-gallery-column">
+                        <img src="./assets/images/beykoz-prive-1.webp" class="service-image" alt="">
+                        <div class="service-content">
+                            <div class="service-info">
+                                <h3>Beykoz Prive</h3>
+                                <p>We’ll work closely with your team to plan out this critical construction phase
+                                    with a
+                                    keen
+                                    emphasis on cost estimating & management as well as logistical planning. We’ll
+                                    provide
+                                    all
+                                    budgeting from schematic design straight through to construction documents.</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="service-item service-gallery-column">
-                            <img src="./assets/images/beykoz-prive-3.webp"
-                                class="service-image" alt="">
-                            <div class="service-content">
-                                <a href="#" class="service-info">
-                                    <h3>Beykoz Prive</h3>
-                                    <p>We’ll work closely with your team to plan out this critical construction phase with a
-                                        keen
-                                        emphasis on cost estimating & management as well as logistical planning. We’ll provide
-                                        all
-                                        budgeting from schematic design straight through to construction documents.</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>

@@ -23,10 +23,12 @@
                                 <div class="row align-items-center col-lg-12 mx-auto">
                                     <div class="col-lg-12 scroll-reveal-left">
                                         <div class="hero-heading">
-                                            <h1 class="hero-subtitle order-2 text-capitalize border-0"> Beykoz Prive </h1>
-                                            <h2 class="hero-title order-1 border-3 border-primary border-bottom">PROJELER</h2>
+                                            <h1 class="hero-title order-2">
+                                                Beykoz Prive Proje Detay
+                                            </h1>
+                                            <h2 class="hero-subtitle order-1 animation-text">PROJELER</h2>
                                         </div>
-                                        <div class="carousel-content">
+                                        <div class="carousel-content mt-3 mt-md-0">
                                             <p>Complete Building Transformation & Overbuild Into New Private School Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga deleniti laborum a, quia aspernatur reprehenderit harum. Nam, iusto, sint necessitatibus delectus eligendi impedit quos quas, velit tenetur ab nesciunt iste!</p>
                                             <p>Complete Building Transformation & Overbuild Into New Private School Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga deleniti laborum a, quia aspernatur reprehenderit harum. Nam, iusto, sint necessitatibus delectus eligendi impedit quos quas, velit tenetur ab nesciunt iste!</p>
                                         </div>
@@ -39,14 +41,26 @@
             </div>
         </section>
 
-        <section class="wrapper" id="home-services">
+        <section class="wrapper position-relative py-0">
             <div class="container">
+                <div class="breadcrumb-container">
+                    <div class="breadcrumb">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Ana Sayfa</a></li>
+                                <li class="breadcrumb-item"><a href="#">Projeler</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Beykoz Prive</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-12">
                         <div class="secheading">
                             <div class="secheading-border active"></div>
                             <div class="sub-heading animation-text">PROJELER</div>
-                            <h2>Beykoz Prive</h2>
+                            <h3>Beykoz Prive</h3>
 
                             <div class="list-unstyled">
                                 <ul class="list-unstyled">
@@ -66,8 +80,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-8 px-4">
-                        <div class="content">
+                    <div class="col-md-8 col-12 px-4">
+                        <div class="content px-2 px-md-0">
                             <p>As one of the top contractors in New York, New Jersey, California, and Florida, JRM prides itself
                                 on delivering a complete range of construction services to our client base nationwide, from
                                 respected property owners & developers to Fortune 500 corporations, media & tech firms, major
@@ -77,7 +91,7 @@
                     </div>
                 </div>
 
-                <div class="row mt-5">
+                <div class="row mt-5 zoom-gallery-wrapper">
                     <div class="col-lg-4">
                         <div class="service-item service-gallery-column ">
                             <a class="zoom-button zoom-trigger">
@@ -89,14 +103,6 @@
                                 <img src="https://www.jrmcm.com/content/uploads/2024/08/PRECON-Remove-Neiman-logo-scaled.jpg"
                                 class="service-image" alt="">
                             </a>
-                            <div class="service-content">
-                                <h3>Preconstruction</h3>
-                                <p>We’ll work closely with your team to plan out this critical construction phase with a
-                                    keen
-                                    emphasis on cost estimating & management as well as logistical planning. We’ll provide
-                                    all
-                                    budgeting from schematic design straight through to construction documents.</p>
-                            </div>
                         </div>
                     </div>
                     <div class="col-lg-8">
