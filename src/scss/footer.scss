@@ -70,7 +70,7 @@ $divider-color: rgba(255, 255, 255, 0.1);
 
 #footer {
     position: relative;
-    background-color: #101010;
+    background-color: var(--primary);
     color: $text-gray;
     font-size: 0.9rem;
     padding-top: 2rem;
@@ -81,6 +81,7 @@ $divider-color: rgba(255, 255, 255, 0.1);
     .footer-top {
         .footer-contact {
             gap: 5rem;
+
             .contact-link {
                 color: #fff;
                 font-size: 1.125rem;
@@ -111,8 +112,8 @@ $divider-color: rgba(255, 255, 255, 0.1);
                 background-color: #fff;
                 color: #000;
                 transition: all 0.3s ease-in-out;
+
                 &:hover {
-                    opacity: 0.8;
                     color: #fff;
                     background-color: var(--primary);
                 }
@@ -129,6 +130,7 @@ $divider-color: rgba(255, 255, 255, 0.1);
     .footer-links {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
         .footer-item {
             gap: 0.6rem;
 
@@ -143,24 +145,29 @@ $divider-color: rgba(255, 255, 255, 0.1);
                 justify-content: start;
                 flex-direction: column;
                 gap: 0.5rem;
+
                 a {
                     color: #fff;
                     font-size: 1rem;
                     margin-bottom: 0.5rem;
                     text-decoration: none;
                     transition: all 0.5s ease-in-out;
+
                     &:hover {
-                        color: var(--primary);
+                        color: #c2c2c2;
                     }
                 }
             }
         }
 
         .footer-title {
-            color: var(--primary);
+            color: #fff;
             font-weight: 600;
             margin-bottom: 1.125rem;
             font-size: 1rem;
+            border-bottom: 1px solid #ffffff57;
+            width: max-content;
+            line-height: 2rem;
         }
 
         ul li {
@@ -172,8 +179,9 @@ $divider-color: rgba(255, 255, 255, 0.1);
                 font-size: 1rem;
                 text-decoration: none;
                 transition: all 0.5s ease-in-out;
+
                 &:hover {
-                    color: var(--primary);
+                    color: #c2c2c2;
                 }
             }
         }
@@ -182,12 +190,14 @@ $divider-color: rgba(255, 255, 255, 0.1);
             padding: 1rem;
             grid-template-columns: 2fr;
             align-items: flex-start;
+
             .footer-item {
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
                 justify-content: flex-start;
                 margin-bottom: 1rem;
+
                 ul.list-unstyled {
                     text-align: left;
                 }
@@ -198,6 +208,7 @@ $divider-color: rgba(255, 255, 255, 0.1);
                     align-items: center;
                     flex-direction: row;
                     border-bottom: 1px solid #fff;
+
                     .footer-logo {
                         display: flex;
                         flex-direction: column;
@@ -206,23 +217,33 @@ $divider-color: rgba(255, 255, 255, 0.1);
                         text-align: left;
                         width: 100%;
                         border-bottom: 1px solid #fff;
+
                         .content {
                             p {
                                 font-weight: 400;
                             }
                         }
                     }
+
                     .contact-info {
                         margin-top: 2rem;
+
                         a {
-                            color: var(--primary);
+                            color: #fff;
                             margin-bottom: 0;
+                            transition: all 0.5s ease-in-out;
+
+                            &:hover {
+                                color: #c2c2c2;
+                            }
                         }
                     }
+
                     .contact-info,
                     .footer-social {
                         width: auto;
                     }
+
                     .footer-social {
                         margin-left: auto;
                     }
@@ -234,6 +255,7 @@ $divider-color: rgba(255, 255, 255, 0.1);
     // En Alt Kısım
     .footer-bottom {
         background-color: #000;
+
         .copyright-text {
             p {
                 font-weight: 300;
@@ -247,9 +269,20 @@ $divider-color: rgba(255, 255, 255, 0.1);
             a {
                 font-weight: 300;
                 color: #fff;
+                transition: all 0.5s ease-in-out;
+
                 &:hover {
-                    color: var(--primary);
+                    color: #a8a8a8;
                 }
+            }
+        }
+
+        a {
+            color: #fff;
+            transition: all 0.5s ease-in-out;
+
+            &:hover {
+                color: #a8a8a8;
             }
         }
     }
@@ -268,6 +301,7 @@ $divider-color: rgba(255, 255, 255, 0.1);
 
         .footer-bottom {
             text-align: center;
+
             .col-md-4 {
                 margin-bottom: 0.5rem;
                 text-align: center !important;

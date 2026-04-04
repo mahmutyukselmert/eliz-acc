@@ -209,6 +209,15 @@ h5,
     color: #fff;
   }
 }
+.btn-primary-outline {
+  color: var(--primary);
+  border-color: var(--primary);
+  &:hover {
+    background-color: rgba(var(--primary-rgb), 1);
+    border-color: rgba(var(--primary-rgb), 1);
+    color: #fff;
+  }
+}
 .btn-secondary-outline {
   color: var(--secondary);
   border-color: var(--secondary);
@@ -515,11 +524,15 @@ h5,
       .service-info {
         background: #283987bd;
         color: #fff;
+        max-height: 100%;
         height: 100%;
         text-decoration: none;
         padding: 30px 30px;
         h3 {
           margin-bottom: 0.625rem;
+        }
+        p {
+          display: block;
         }
       }
     }
@@ -578,7 +591,7 @@ h5,
       position: absolute;
       left: 0;
       bottom: 0;
-      height: 50px;
+      max-height: 4.375rem;
       width: 100%;
       background: rgba(255, 255, 255, 0.85);
       color: #000;
@@ -591,8 +604,15 @@ h5,
       h3 {
         font-size: 20px;
         padding: 11px 0;
+        margin-bottom: 0;
+        display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
       }
       p {
+        display: none;
         font-size: 16px;
         line-height: 1.5em;
       }
@@ -834,7 +854,8 @@ h5,
   h4 {
     color: #000;
     font-size: 1rem;
-    font-family: "Helvetica LT";
+    font-family: var(--font-inter);
+    font-weight: 500;
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 2;

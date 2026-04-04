@@ -95,12 +95,12 @@
                     <div class="col-lg-4">
                         <div class="service-item service-gallery-column ">
                             <a class="zoom-button zoom-trigger">
-                                <img src="https://www.jrmcm.com/content/uploads/2024/08/PRECON-Remove-Neiman-logo-scaled.jpg" class="service-image" alt="">
+                                <img src="/assets/images/beykoz-prive-1.webp" class="service-image" alt="">
                             </a>
                         </div>
                         <div class="service-item service-gallery-column">
                             <a class="zoom-button zoom-trigger">
-                                <img src="https://www.jrmcm.com/content/uploads/2024/08/PRECON-Remove-Neiman-logo-scaled.jpg"
+                                <img src="/assets/images/beykoz-prive-2.webp"
                                 class="service-image" alt="">
                             </a>
                         </div>
@@ -108,7 +108,7 @@
                     <div class="col-lg-8">
                         <div class="service-item service-gallery-column service-gallery-column-big">
                             <a class="zoom-button zoom-trigger">
-                                <img src="https://www.jrmcm.com/content/uploads/2024/08/Construction-Mgmt-1-scaled.jpeg"
+                                <img src="/assets/images/beykoz-prive-3.webp"
                                     class="service-image" alt="">
                             </a>
                             <div class="service-content">
@@ -123,7 +123,31 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-4">
+                        <div class="service-item service-gallery-column ">
+                            <a class="zoom-button zoom-trigger">
+                                <img src="/assets/images/beykoz-prive-4.webp" class="service-image" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service-item service-gallery-column">
+                            <a class="zoom-button zoom-trigger">
+                                <img src="/assets/images/beykoz-prive-5.webp"
+                                class="service-image" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service-item service-gallery-column">
+                            <a class="zoom-button zoom-trigger">
+                                <img src="/assets/images/beykoz-prive-5.webp"
+                                class="service-image" alt="">
+                            </a>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </section>
 
