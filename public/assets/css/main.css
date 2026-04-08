@@ -3842,8 +3842,16 @@ header.fixed-top.dropdown-menu {
   content: "\f285";
 }
 
+.bi-envelope::before {
+  content: "\f32f";
+}
+
 .bi-geo-alt::before {
   content: "\f3e8";
+}
+
+.bi-telephone::before {
+  content: "\f5c1";
 }
 
 .bi-twitter-x::before {
@@ -4714,6 +4722,11 @@ h5,
   display: flex;
   align-items: flex-start;
   margin-bottom: 20px;
+}
+.contact-section .contact-content .contact-info-panel .info-list .info-item a {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 .contact-section .contact-content .contact-info-panel .info-list .info-item i {
   font-size: 18px;

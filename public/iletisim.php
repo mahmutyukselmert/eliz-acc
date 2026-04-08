@@ -56,17 +56,17 @@
 
                         <div class="info-list">
                             <div class="info-item">
-                                <i class="fa-solid fa-location-dot"></i>
+                                <i class="bi bi-geo-alt"></i>
                                 <p>111 West 33rd St<br>4th Floor<br>New York, NY 10120</p>
                             </div>
 
                             <div class="info-item">
-                                <i class="fa-solid fa-phone"></i>
+                                <i class="bi bi-telephone"></i>
                                 <p>212-545-0500</p>
                             </div>
 
                             <div class="info-item">
-                                <i class="fa-solid fa-paper-plane"></i>
+                                <i class="bi bi-envelope"></i>
                                 <p>info@acc.com</p>
                             </div>
                         </div>
